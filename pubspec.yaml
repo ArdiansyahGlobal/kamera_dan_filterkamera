@@ -1,0 +1,25 @@
+name: kamera_dan_flterkamera
+
+description: "A new Flutter project using camera."
+
+publish_to: 'none' # Hanya untuk proyek lokal, hapus jika ingin dipublikasikan
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.0
+  image: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
